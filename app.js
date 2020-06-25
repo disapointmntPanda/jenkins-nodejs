@@ -4,5 +4,5 @@ const app = express();
 app.get('/',function(req,res) {
   res.send("Hello World");
 });
-
+console.log('hello');
 app.listen(4002);
